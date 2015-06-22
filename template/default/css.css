@@ -1,0 +1,135 @@
+body {
+	font-size: 1em;
+	font-family: Verdana;
+}
+
+#mifotolog {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#mifotolog #top {
+	text-align: center;
+}
+
+#mifotolog #thumbnails {
+	width: 120px;
+	text-align: center;
+	float: left;
+}
+
+#mifotolog #thumbnails img {
+	border: 2px solid black;
+	max-width: 100px;
+}
+
+#mifotolog #enlaces {
+	text-align: center;
+}
+
+#mifotolog #enlaces a {
+	text-decoration: none;
+	font-size: 0.8em;
+	color: black;
+}
+
+#mifotolog #enlaces a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+#mifotolog #imagen {
+	margin-left: 140px;
+}
+
+#mifotolog #imagen #foto {
+	text-align: center;
+}
+
+#mifotolog #imagen #foto img {
+	border: 2px solid black;
+	max-width: 80%;
+}
+
+#mifotolog #imagen #info {
+	text-align: center;
+	font-size: 0.8em;
+	margin-bottom: 2em;
+}
+
+#mifotolog #imagen #pie {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0.5em;
+	border: 2px dotted;
+	background: #eee;
+	margin-bottom: 2em;
+	font-size: 0.9em;
+}
+
+#mifotolog #imagen #pie p {
+	text-align: justify;
+}
+
+#mifotolog #imagen #comentarios fieldset {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0.5em;
+	margin-bottom: 2em;
+	font-size: 0.9em;
+}
+
+#mifotolog #imagen #comentarios legend {
+	font-weight: bold;
+}
+
+#mifotolog #imagen #comentarios p {
+	text-align: justify;
+}
+
+#mifotolog #imagen .eliminar {
+	border: 0;
+}
+
+#mifotolog #imagenes .imagen {
+	float: left;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+#mifotolog #imagenes .imagen img {
+	border: 2px solid black;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+#mifotolog #formulario {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#mifotolog #formulario input, textarea {
+	border: 1px solid black;
+	padding: 3px;
+	width: 320px;
+}
+
+#mifotolog #formulario textarea {
+	height: 8em;
+}
+
+#mifotolog #formulario .label {
+	float: left;
+	width: 100px;
+	text-align: right;
+	font-weight: bold;
+}
+
+#mifotolog #formulario .field {
+	text-align: left;
+	margin-left: 120px;
+	margin-bottom: 5px;
+}

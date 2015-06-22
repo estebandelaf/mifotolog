@@ -1,0 +1,19 @@
+				<div id="foto"><a href="cache/{img}" target="_blank" onclick="window.open(this.href, this.target, 'width=700,height=600'); return false;"><img src="cache/{img}" alt="{img}" /></a></div>
+				<div id="info">{img} - {fechaImagen}<br />{size} [KB] - {x}x{y} [px] {eliminarImagen}</div>
+				<div id="pie">
+					<p>{pie}</p>
+				</div>
+				<div id="comentarios">
+{comentarios}
+				</div>
+				<div id="formulario">
+					<form action="index.php" method="post" onsubmit="return validarMsj(this);" name="formulario">
+						<input type="hidden" name="img" value="{img}" />
+						<div class="label">{nick}</div><div class="field"><input type="input" name="nick" /></div>
+						<div class="label">{msj}</div><div class="field">
+{smiles}
+							<br />
+							<textarea name="msj" id="msj"></textarea></div>
+						<div class="label"></div><div class="field"><input type="submit" name="comentario" value="{submit}" /></div>
+					</form>
+				</div>
